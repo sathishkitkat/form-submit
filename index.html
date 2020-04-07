@@ -1,0 +1,294 @@
+<html lang="en">
+​
+  <head>
+    <meta charset="utf-8">
+    <title>Styles Conference</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+     <link rel='stylesheet' href='https://cdn.jsdelivr.net/bootstrap.tagsinput/0.8.0/bootstrap-tagsinput.css'>
+​
+​
+  </head>
+​
+  <body>
+  <div class="container">
+   <form id="conference_form" method="post">
+    <section class="bg-cl">
+        <h4>About the Internship</h4>
+         <div class="row">
+           <div class="col-lg-3">
+              <div class="tite">
+               <label>Choose an Domain <span>*</span></label>
+              </div>
+           </div>
+           <div class="col-lg-5">
+             <select class="form-control in-box" name="domain" id="domain" required="">
+               <option>Web Development</option>
+               <option>Mobile App</option>
+               <option>IOS Development</option>
+               <option>UI/UX</option>
+               <option>Java</option>
+             </select>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-lg-3">
+              <div class="office">            
+                <label>Select Type <span>*</span></label> 
+              </div>
+           </div>
+           <div class="col-lg-5">            
+            <div class="rd-bt">
+              <label class="radio-inline"><input type="radio" name="types" value="office" checked>On Field/Office</label>
+             <label class="radio-inline"><input type="radio" name="types" value="wfh" >Work From Home</label>
+            </div>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-lg-3">
+              <div class="tite">
+                 <label> No.of Opening <span>*</span></label>
+               </div>
+           </div>
+           <div class="col-lg-5">
+             <input type="text" class="form-control in-box" name="opening" id="opening" required="">
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-lg-3">
+              <div class="tite">
+               <label>  Internship Start Date <span>*</span></label>
+             </div>
+           </div>
+           <div class="col-lg-5">
+             <input type="date" class="form-control in-box" name="date" id="date" required="">
+             </div>
+         </div>
+         <div class="row">
+           <div class="col-lg-3">
+              <div class="tite">
+               <label>Duraton (In months) <span>*</span></label>
+             </div>
+           </div>
+           <div class="col-lg-5">
+             <input type="text" class="form-control in-box" name="duration" id="duration" required="">
+             
+           </div>
+         </div>
+     </section>
+​
+       <section class="bg-cl1">
+          <h4>Responsiblites</h4>
+          <div class="row">
+           <div class="col-lg-3">
+              <div class="tite">
+               <label>Job Description <span>*</span></label>
+             </div>
+           </div>
+           <div class="col-lg-7">
+             <textarea class="form-control" name="description" rows="5" required="" id="description"></textarea>
+           </div>
+           </div>
+       </section>
+         <section class="bg-cl">
+            <h4>Skills Sets</h4>
+             <div class="row">
+              <div class="tite">
+               <div class="col-lg-3">
+                 <label>Skills You Are Looking For <span>*</span></label>
+                </div>
+                <div class="col-lg-7">                  
+                   <input type="text" value="Photoshop, C++, Anngular, Java, Ios App," data-role="tagsinput" class="form-control " required="" id="skills"/>
+                </div>
+               </div>
+             </div>
+         </section>
+         <section class="bg-cl">
+           <h4>Perks</h4>
+           <div class="row">
+             <div class="col-lg-3">
+              <div class="tite">
+               <div class="checkbox">
+                  <label><input type="checkbox" name="perks" value="Certificate">Certificate</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" name="perks" value="Flexible Working Hours">Flexible Working Hours</label>
+                </div>
+                <div class="checkbox disabled">
+                  <label><input type="checkbox" name="perks" value="5 Days a Week" >5 Days a Week </label>
+                </div>
+              </div>
+             </div>
+             <div class="col-lg-3">
+              <div class="tite">
+               <div class="checkbox">
+                <label><input type="checkbox" name="perks" value="Certificate 1" >Certificate 1</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" name="perks" value="Flexible Working Hours 1" >Flexible Working Hours 1</label>
+              </div>
+              <div class="checkbox disabled">
+                <label><input type="checkbox" name="perks" value="5 Days a Week 1" >5 Days a Week 1</label>
+              </div>
+             </div>
+             </div>
+           </div>
+           <h4>Slipend</h4>
+           <div class="tite">
+               <div class="radio">
+                <label><input type="radio" name="optradio1" value="Unpaid" checked>Unpaid</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio1" value="paid">Paid </label>
+              </div>
+           </div>
+           <div class="form-inline">
+            <div class="tite">
+              <div class="form-group">
+                <label >Form</label>
+                <input type="" class="form-control" id="from">
+              </div>
+              <div class="form-group">
+                <label >to:</label>
+                <input type="" class="form-control" id="to">
+              </div>
+            </div>
+            <div class="pg">
+             <p>Dose this internship come with apre placement</p>
+            </div>
+            <div class="bt-center">
+              <label class="radio-inline"><input type="radio" name="optradio" value="Yes" checked>Yes</label>
+              <label class="radio-inline"><input type="radio" name="optradio" value="No">No</label>
+            </div>
+            </div>
+         </section>
+         <section class="bg-cl">
+           <h4>Questions</h4>
+           <div class="form-horizontal" >
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="">Question 1</label>
+              <div class="col-sm-7">
+                <p>Why should you be hired for this internship</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="">Question 2</label>
+              <div class="col-sm-7">          
+                <input type="" class="form-control" id="question1"  name="question1">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="">Question 3</label>
+              <div class="col-sm-7">          
+                <input type="" class="form-control" id="question2"  name="question2">
+              </div>
+            </div>
+            <div class="row">
+              <div class="bt-center1">
+              <div class="col-lg-3">
+                <button class="btn btn-default">Save Draft</button>
+              </div>
+               <div class="col-lg-2">
+               
+                <button type="button" class="btn btn-default" data-target="#myModal" id="post_form">Post</button>
+                </div>
+                </div>
+              </div>
+            </div>
+         </section>
+ </form> 
+</div>
+​
+<!-- Modal Box -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">View Details </h4>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Domain: <span id="ps_domain"></span></li>
+            <li>Select type: <span id="ps_type"></span></li>
+            <li>Opening: <span id="ps_opening"></span></li>
+            <li>Date: <span id="ps_date"></span></li>
+            <li>Month: <span id="ps_duration"></span></li>
+            <li>Description: <span id="ps_description"></span></li>
+            <li>Skills: <span id="ps_skills"></span></li>
+            <li>Perks: <span id="ps_perks"></span></li>
+            <li>From: <span id="ps_from"></span> to: <span id="ps_to"></span></li>
+            <li>placement: <span id="ps_placement"></span></li>
+            <li>Question2: <span id="ps_question1"></span></li>
+            <li>Question3: <span id="ps_question2"></span></li>
+
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+​
+​
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/bootstrap.tagsinput/0.8.0/bootstrap-tagsinput.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(event){
+            // event.preventDefault();
+            
+            $('#post_form').on('click',function(event){
+              // event.preventDefault();
+               var isvalid = $("#conference_form").valid();
+                if (isvalid) {
+                    $('#myModal').modal('toggle'); 
+                }else{ // here only validation failed error msg should be written
+                  // console.log(isvalid);
+                  // alert('huuuuu');
+                }
+                $('#ps_domain').html($('#domain').val());
+                var type = $("input[name='types']:checked").val();
+                $('#ps_type').html(type);
+                $('#ps_opening').html($('#opening').val());
+                $('#ps_date').html($('#date').val());
+                $('#ps_duration').html($('#duration').val());
+                $('#ps_description').html($('#description').val());
+                $('#ps_skills').html($('#skills').val());
+                var type1 = $("input[name='optradio1']:checked").val();
+                $('#ps_slip').html(type1);
+                $('#ps_from').html($('#from').val());
+                $('#ps_to').html($('#to').val());
+                var type2 = $("input[name='optradio']:checked").val();
+                $('#ps_placement').html(type2);
+                $('#ps_question1').html($('#question1').val());
+                $('#ps_question2').html($('#question2').val());
+
+                var perks_val = [];
+                $.each($("input[name='perks']:checked"), function(){ alert('Are you sure save this file');
+                  perks_val.push($(this).val());
+                });
+                console.log(perks_val);
+                var perks = perks_val.join(", ");
+                // alert(perks);
+                $('#ps_perks').html(perks);
+              
+            });
+        
+        });  
+    </script>
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+

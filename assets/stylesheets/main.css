@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.bg-cl{
+  background: #f7f7f7;
+  margin: 20px;
+  padding: 20px;
+}
+.bg-cl1{
+  background: #f7f7f7;
+  margin: 20px;
+  padding: 40px;
+}
+.pg p{
+  position: relative;
+  left: 80px;
+  font-weight: bold;
+}
+.bt-center {
+  margin: 20px 150px;
+}
+.bt-center1 {
+  margin: 20px 250px;
+}
+.label-info {
+    background-color: #d6d8d8 ! important;
+}
+.bootstrap-tagsinput .tag {
+    color: #000 ! important;
+    font-size: 12px;
+    margin: 5px;
+}
+.tite{
+  list-style: none;
+  margin: 25px;
+}
+.in-box{
+  margin: 15px;
+}
+.office{
+  position: relative;
+  left: 25px;
+}
+.rd-bt{
+  position: relative;
+  left: 15px;
+}
+span{
+  color: red;
+}
+ul li span{
+  margin: 0 15px;
+}
+ul li{
+  list-style: none;
+  font-size: 15px;
+}
